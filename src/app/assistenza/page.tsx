@@ -9,7 +9,7 @@ export default function Assistenza() {
         <main className="min-h-screen flex flex-col items-center pt-24 p-6">
             <h1 className="text-4xl font-bold mb-4">Come possiamo aiutarti?</h1>
             <p className="text-lg text-center max-w-xl mb-6 text-muted-foreground">
-                Scegli l'opzione più adatta a te per ricevere supporto
+                Scegli l&apos;opzione più adatta a te per ricevere supporto
             </p>
             <div className="flex flex-col md:flex-row gap-6 justify-center items-start">
                 <Card className="w-[280px] h-[350px] flex flex-col justify-between">
