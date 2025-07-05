@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build && next-on-pages",
+      "build": "next build",
+  "pages:build": "next-on-pages --experimental-minify",
+  "preview": "next dev",
     "start": "next start",
     "lint": "next lint"
   },
