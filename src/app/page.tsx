@@ -17,7 +17,7 @@ export default function Home() {
         />
         <h1 className="text-4xl font-bold mb-4">ButterflyOS</h1>
         <p className="text-lg text-center max-w-xl mb-12 text-muted-foreground">
-          Un&apos;esperienza Linux minimale e bellissima
+          Un'esperienza Linux minimale e bellissima
         </p>
         <h3 className="text-2xl font-semibold mb-4">In arrivo prossimamente...</h3>
         <div className="flex gap-4 mb-6">
