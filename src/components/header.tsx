@@ -44,7 +44,7 @@ export function Header() {
 <header className="w-full px-6 py-4 border-b">
         <div className="max-w-5xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-3 flex-1">
-            <Image src="/img/logo.png" alt="ButterflyOS logo" width={32} height={32} />
+            <Image src="/img/logo.png" alt="ButterflyOS logo" width={32} height={32} unoptimized/>
             <span className="font-semibold text-lg hidden md:inline">ButterflyOS</span>
           </div>
           {/*Desktop*/}

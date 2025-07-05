@@ -14,6 +14,7 @@ export default function Home() {
           width={120}
           height={120}
           className="mb-6"
+          unoptimized
         />
         <h1 className="text-4xl font-bold mb-4">ButterflyOS</h1>
         <p className="text-lg text-center max-w-xl mb-12 text-muted-foreground">

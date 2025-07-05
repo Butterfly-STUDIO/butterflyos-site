@@ -2,14 +2,13 @@
   "name": "butterflyos-site",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev --turbopack",
-      "build": "next build",
-  "pages:build": "next-on-pages --experimental-minify",
-  "preview": "next dev",
-    "start": "next start",
-    "lint": "next lint"
-  },
+ "scripts": {
+  "dev": "next dev",
+  "build": "next build && next export && cp routes.json out/routes.json",
+  "start": "npx serve out",
+  "preview": "npx serve out",
+  "lint": "next lint"
+},
   "dependencies": {
     "@radix-ui/react-navigation-menu": "^1.2.13",
     "@radix-ui/react-select": "^2.2.5",
