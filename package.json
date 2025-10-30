@@ -4,7 +4,7 @@
   "private": true,
 "scripts": {
   "dev": "next dev",
-  "build": "next build && cp routes.json out/routes.json",
+  "build": "next build && next export && cp routes.json out/routes.json",
   "start": "npx serve out",
   "preview": "npx serve out",
   "lint": "next lint"
