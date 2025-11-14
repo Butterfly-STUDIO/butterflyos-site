@@ -19,7 +19,7 @@ export default function Assistenza() {
                     </CardContent>
                     <CardFooter className="mt-auto">
                         <a
-                            href="https://butterflyos-docs.pages.dev/guide/it/introduzione"
+                            href="https://butterflyos-docs.pages.dev/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="w-full"
